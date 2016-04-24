@@ -52,10 +52,14 @@ recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSpade>);
 recipes.remove(<appliedenergistics2:item.ToolNetherQuartzPickaxe>);
 recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSword>);
 
-recipes.addShaped(<foundry:foundryMold:17>, [[<TConstruct:leggingsWood>, <foundry:foundryComponent:4>]]);
-recipes.addShaped(<foundry:foundryMold:21>, [[<TConstruct:bootsWood>, <foundry:foundryComponent:4>]]);
+recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({prevScale: 0.99030226 as float, fluidTank: {FluidName: "iron.molten", Amount: 14000}, Items: []}), [[<Mekanism:MachineBlock2:11>.withTag({prevScale: 0.99030226 as float, fluidTank: {FluidName: "liquidiron", Amount: 14000}})]]);
+recipes.addShaped(<Mekanism:MachineBlock2:11>.withTag({prevScale: 0.99030226 as float, fluidTank: {FluidName: "liquidiron", Amount: 14000}}), [[<Mekanism:MachineBlock2:11>.withTag({prevScale: 0.99030226 as float, fluidTank: {FluidName: "iron.molten", Amount: 14000}, Items: []})]]);
 recipes.addShaped(<foundry:foundryMold:19>, [[<TConstruct:helmetWood>, <foundry:foundryComponent:4>]]);
 recipes.addShaped(<foundry:foundryMold:3>, [[<TConstruct:chestplateWood>, <foundry:foundryComponent:4>]]);
+recipes.addShaped(<foundry:foundryMold:3>, [[<TConstruct:chestplateWood>, <foundry:foundryComponent:4>]]);
+recipes.addShaped(<foundry:foundryMold:3>, [[<TConstruct:chestplateWood>, <foundry:foundryComponent:4>]]);
+
+
 
 //MC zivico balancing
 recipes.remove(<magicalcrops:magicalcrops_ZivicioSword>);
