@@ -1,0 +1,545 @@
+{
+  "name": "Digital blood",
+  "description": "Better storage solutions and automation.",
+  "quests": [
+    {
+      "name": "They tried to fool me again!",
+      "description": "Give everything you have - put it in here. But never get it back. But i know how to get it back!",
+      "x": 186,
+      "y": 118,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 360
+      },
+      "prerequisites": [
+        "Storage"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 360
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.4k"
+        }
+      ]
+    },
+    {
+      "name": "Digital Storage Essentials#3",
+      "description": "Even more basics",
+      "x": 248,
+      "y": 49,
+      "icon": {
+        "id": "minecraft:quartz"
+      },
+      "prerequisites": [
+        "Digital Storage Essentials#2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "magicalcrops:magicalcrops_QuartzSeeds"
+        }
+      ]
+    },
+    {
+      "name": "Digital Storage Essentials#1",
+      "description": "I need some basics to get this going.",
+      "x": 297,
+      "y": 10,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 1,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Digital Storage Essentials#2",
+      "description": "More basics",
+      "x": 269,
+      "y": 26,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial"
+      },
+      "prerequisites": [
+        "Digital Storage Essentials#1"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Take control of your belongings",
+      "description": "In this strange world, it seems i can convert matter to data.",
+      "x": 226,
+      "y": 70,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockController"
+      },
+      "prerequisites": [
+        "Digital Storage Essentials#3"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockController"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 56,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Storage",
+      "description": "I got a disk drive? Perhaps i can build an encasing for it.",
+      "x": 207,
+      "y": 92,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockDrive"
+      },
+      "prerequisites": [
+        "Take control of your belongings"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockDrive"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:quartz",
+          "amount": 5
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Generation out of the void",
+      "description": "This night i had a strange vision. Instead of offering my blood to the gods, i could create stone out of nowhere.",
+      "x": 122,
+      "y": 62,
+      "icon": {
+        "id": "minecraft:cobblestone"
+      },
+      "prerequisites": [
+        "Bringing it together"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 300
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+        }
+      ]
+    },
+    {
+      "name": "Securing supply",
+      "description": "I fear i will need more of these in the near future. A way to produce more of them ...",
+      "x": 280,
+      "y": 66,
+      "icon": {
+        "id": "magicalcrops:magicalcrops_CertusQuartzSeeds"
+      },
+      "prerequisites": [
+        "Digital Storage Essentials#3"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:magicalcrops_CertusQuartzSeeds"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "magicalcrops:magicalcrops_CertusQuartzSeeds"
+        },
+        {
+          "id": "magicalcrops:magicalcrops_QuartzSeeds"
+        }
+      ]
+    },
+    {
+      "name": "Bringing it together",
+      "description": "The diviner helped me to automate the altars partially. Perhaps its time to get the best out of both systems.",
+      "x": 152,
+      "y": 89,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockInterface"
+      },
+      "prerequisites": [
+        "They tried to fool me again!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 260
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 240
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 51,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Digital blood.",
+      "description": "It seems this system is also capable of digitalizing liquids.",
+      "x": 180,
+      "y": 65,
+      "icon": {
+        "id": "extracells:certustank"
+      },
+      "prerequisites": [
+        "Storage"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.fluid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extracells:part.base",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Fluid Control!",
+      "description": "Craft a Fluid Import Bus and use it to import fluid to Your Me System",
+      "x": 156,
+      "y": 40,
+      "icon": {
+        "id": "extracells:part.base",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Digital blood."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extracells:storage.fluid",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Becoming Auto!",
+      "description": "Learn The Ways of Auto Crafting!",
+      "x": 116,
+      "y": 117,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockMolecularAssembler"
+      },
+      "prerequisites": [
+        "Bringing it together"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 480
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 340
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 440
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 240
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockMolecularAssembler"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "magicalcrops:magicalcrops_QuartzSeeds",
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockIOPort"
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockCharger"
+        }
+      ]
+    },
+    {
+      "name": "Going Wireless!",
+      "description": "Learn the Ways of Wireless!",
+      "x": 83,
+      "y": 141,
+      "icon": {
+        "id": "appliedenergistics2:item.ToolWirelessTerminal"
+      },
+      "prerequisites": [
+        "Becoming Auto!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockWireless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ToolWirelessTerminal"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSecurity"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 42
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extracells:terminal.fluid.wireless"
+        },
+        {
+          "id": "extracells:terminal.gas.wireless"
+        },
+        {
+          "id": "thaumicenergistics:wireless.essentia.terminal"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}
