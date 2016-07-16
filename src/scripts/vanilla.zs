@@ -115,7 +115,7 @@ recipes.remove(<TConstruct:ToolForgeBlock:11>);
 recipes.remove(<TConstruct:ToolForgeBlock:12>);
 recipes.remove(<TConstruct:ToolForgeBlock:13>);
 recipes.remove(<TConstruct:blankPattern:2>);
-recipes.addShaped(<TConstruct:blankPattern:2>, [[<foundry:foundryComponent:4>, <ore:MainInfusionMaterial>]]);
+recipes.addShaped(<TConstruct:blankPattern>, [[<foundry:foundryComponent:4>, <ore:MainInfusionMaterial>]]);
 recipes.addShaped(<TConstruct:ToolForgeBlock>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:blockIron>, <TConstruct:CraftingStation>, <minecraft:iron_block>], [<minecraft:iron_block>, null, <ore:blockIron>]]);
 recipes.remove(<TConstruct:manualBook>);
 recipes.addShaped(<TConstruct:manualBook>, [[<minecraft:book>, <ore:nuggetIron>]]);
