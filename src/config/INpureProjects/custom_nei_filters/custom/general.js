@@ -1,3 +1,10 @@
+if (FML.isModLoaded("Mekanism")) {
+    meta = [];
+    for (var i = 0; i < 16; i++) {
+        meta.push(i);
+    }
+    NEI.override("Mekanism:MachineBlock2", meta);
+}
 if (FML.isModLoaded("foundry")) {
     NEI.override("foundry:foundryContainer", [0]);
 }
